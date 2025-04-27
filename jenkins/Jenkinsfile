@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   tools {
-    tool name: 'M399', type: 'maven' 
+     maven 'M399' 
   }
 
   stages {

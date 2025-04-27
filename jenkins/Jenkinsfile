@@ -1,7 +1,7 @@
 pipeline {
   agent any
 
-  tool {
+  tools {
     tool name: 'M399', type: 'maven' 
   }
 
